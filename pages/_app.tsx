@@ -6,6 +6,7 @@ import DefaultLayout from '~/components/DefaultLayout'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <DefaultLayout>
+      
       <Component {...pageProps} />
     </DefaultLayout>
   )
